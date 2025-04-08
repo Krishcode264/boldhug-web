@@ -40,8 +40,8 @@ export default function App() {
               real-life connection. Designed for shared experiences.
             </p>
           </span>
-          <div className="  ">
-            <h2 className=" text-center text-2xl font-semibold mb-4">
+          <div className=" px-3 py-2 rounded-2xl  shadow-xl shadow-violet-400  ">
+            <h2 className=" text-center text-2xl font-semibold mb-4 font-mono text-gray-600">
               Download Now
             </h2>
             <div className="flex flex-col  md:flex-row   justify-center gap-4">
