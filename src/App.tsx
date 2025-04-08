@@ -14,7 +14,7 @@ import { Link } from "react-router-dom";
 export default function App() {
   return (
     <div className="min-h-screen w-full bg-gradient-to-tr from-violet-200 to-violet-400 font-sans">
-      <div className="p-2 absolute top-14 left-12 rounded-2xl bg-violet-300 w-28">
+      <div className="p-2 sm:absolute  mx-auto md:top-14 top-0 left-12 rounded-2xl bg-violet-300 w-28">
         <img className="w-22 h-22 rounded-xl" src={logo} alt="" />
       </div>
       <div className="max-w-4xl mx-auto px-4 py-12">
@@ -50,7 +50,7 @@ export default function App() {
                 className=" bg-violet-200  text-white px-6 py-3 rounded-2xl font-medium hover:bg-violet-300 transition"
               >
                 <img
-                  className="w-12 h-12 align-middle"
+                  className="w-12 h-12 align-middle mx-auto"
                   src={playStore}
                   alt=""
                 />
@@ -59,7 +59,7 @@ export default function App() {
                 to={""}
                 className="bg-violet-200 text-white px-6 py-3 rounded-2xl  font-medium hover:bg-violet-300 transition"
               >
-                <img className="w-12 h-12" src={appleStore} alt="" />
+                <img className="w-12 h-12 mx-auto" src={appleStore} alt="" />
               </Link>
             </div>
           </div>
