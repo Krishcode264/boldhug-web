@@ -94,7 +94,7 @@ export default function App() {
         <footer className="text-center text-sm text-gray-600 mt-12">
           Created by Krishna — ☕{" "}
           <a
-            href="https://www.buymeacoffee.com/yourlink"
+            href="https://www.buymeacoffee.com/krish264"
             className="underline hover:text-gray-800"
             target="_blank"
           >
